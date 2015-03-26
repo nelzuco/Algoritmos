@@ -3,7 +3,7 @@ package practica2;
 public class Test {
 
 	public static void main(String[] args) {
-		
+		/*
 		Estudiante[] estudiantes= new Estudiante[5];
 		// crear 5 estudiantes
 		estudiantes[0] = new Estudiante("juan", "lozano", "jlozano", 1, "50 y 120");
@@ -26,6 +26,13 @@ public class Test {
 		for (int i = 0; i < profesores.length; i++) {
 			profesores[i].tusDatos();
 		}	
+	}*/
+	Ejercicio2 eje= new Ejercicio2();
+	int arr[]= eje.devuelveArreglo(5);
+	for (int i = 0; i < arr.length; i++) {
+		System.out.println(arr[i]);
 	}
-
+		
+		
+	}	
 }
