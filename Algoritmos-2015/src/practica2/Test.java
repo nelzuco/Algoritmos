@@ -11,28 +11,28 @@ public class Test {
 		estudiantes[2]= new Estudiante("sergio", "katz", "skatz", 3, "50 y 120");
 		estudiantes[3]= new Estudiante("marcelo", "barreto", "mbarreto", 4, "50 y 120");
 		estudiantes[4]= new Estudiante("nelson", "zucolillo", "nzucolillo", 5, "50 y 120");
-		
+
 		Profesor[] profesores= new Profesor[4];
 		//crear 4 profesores
 		profesores[0] = new Profesor("Gustavo", "Rossi", 40, "gusRossi", "Objetos 2", "Doctor", "Informatica");
 		profesores[1] = new Profesor("Silvia", "Gordillo", 40, "gordillo", "Base de Datos 1", "Licenciado", "Informatica");
 		profesores[2] = new Profesor("Alicia", "Diaz", 40, "adiaz", "Objetos 1", "Licenciado", "Informatica");
 		profesores[3] = new Profesor("Gabriel", "Baum", 40, "baum", "Ingenieria", "Ingeniero", "Informatica");
-		
+
 		for (int i = 0; i < estudiantes.length; i++) {
 			estudiantes[i].tusDatos();
 		}
-		
+
 		for (int i = 0; i < profesores.length; i++) {
 			profesores[i].tusDatos();
 		}	
 	}*/
-	Ejercicio2 eje= new Ejercicio2();
-	int arr[]= eje.devuelveArreglo(5);
-	for (int i = 0; i < arr.length; i++) {
-		System.out.println(arr[i]);
-	}
-		
-		
+		Ejercicio2 eje= new Ejercicio2();
+		int arr[]= eje.devuelveArreglo(5);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+
+
 	}	
 }
