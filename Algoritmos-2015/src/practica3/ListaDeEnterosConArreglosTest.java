@@ -1,4 +1,4 @@
-package tp03.ejercicio1;
+package practica3;
 
 import static org.junit.Assert.*;
 
